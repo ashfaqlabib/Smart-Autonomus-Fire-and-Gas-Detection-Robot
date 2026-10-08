@@ -42,8 +42,9 @@
 #include <ESP32Servo.h>
 
 // ---------------- WIFI CREDENTIALS ----------------
-const char* ssid     = "IoT Lab";
-const char* password = "bubt1234";
+
+const char* WIFI_SSID = "YOUR_WIFI_NAME";
+const char* WIFI_PASSWORD = "YOUR_WIFI_PASSWORD";
 
 // ---------------- PIN DEFINITIONS -----------------
 #define GAS_PIN        34   // MQ-2 analog pin
